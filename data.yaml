@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 41
+names: ['100km', '120km', '20km', '30km', '50km', '60km', '70km', '80km', 'agiraracgirisiyasak', 'agiraracsollamakserbest', 'agiraracsollamakyasa', 'aracgirisiyok', 'asgari80km', 'bisikletlicikabilir', 'calismavar', 'ciftgirisliyol', 'cocukcikabilir', 'dikkat', 'dur', 'girisyok', 'gizlibuzlanma', 'hizsiniri yok', 'ilerivesagadonus', 'ilerivesoladonus', 'ileriyon', 'kasisliyol', 'kavsak', 'kayganyol', 'oncelikliyol', 'sagadonus', 'sagdangiris', 'sagdansollamakyasak', 'soladonus', 'soldangiris', 'sollamakserbest', 'sollamakyasak', 'trafikisigivar', 'vahsihayvan', 'virajliyol', 'yayagecidi', 'yolver']
+
+roboflow:
+  workspace: huso
+  project: traffic-sign-ooreh
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/huso/traffic-sign-ooreh/dataset/2
